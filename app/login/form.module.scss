@@ -1,0 +1,48 @@
+.wrapper {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	.container {
+		width: 300px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin-bottom: 5px;
+		.label {
+			z-index: 1;
+			color: #8c8c8c;
+			position: absolute;
+			top: 5px;
+			left: 10px;
+			text-align: center;
+			font-size: 19px;
+			font-weight: 300;
+			transition: all 0.1s ease;
+			&.focused {
+				font-size: 10px;
+			}
+		}
+		input {
+			flex: 3;
+			height: 40px;
+			padding: 10px 9px 0;
+		}
+	}
+	button {
+		width: 150px;
+		background-color: #e50914;
+		color: #fff;
+		border: none;
+		font-size: 20px;
+		margin-top: 15px;
+		padding: 5px;
+		cursor: pointer;
+		&:active {
+			background-color: #af0a12;
+			outline: 2px solid #860f15;
+		}
+	}
+}
