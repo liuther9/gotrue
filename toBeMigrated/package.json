@@ -1,0 +1,41 @@
+{
+  "name": "gotrue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.5.11",
+    "@tanstack/react-virtual": "^3.0.0-beta.13",
+    "antd": "^4.22.1",
+    "json5-to-table": "^0.1.8",
+    "lodash": "^4.17.21",
+    "next": "^13.0.0",
+    "rc-table": "^7.25.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-table": "^7.8.0",
+    "react-window": "^1.8.7",
+    "styled-components": "^5.3.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "18.0.3",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@types/react-table": "^7.7.12",
+    "@types/react-window": "^1.8.5",
+    "@types/styled-components": "^5.1.25",
+    "@types/uuid": "^8.3.4",
+    "eslint": "8.19.0",
+    "eslint-config-next": "^13.0.0",
+    "sass": "^1.55.0",
+    "typescript": "4.7.4"
+  }
+}
